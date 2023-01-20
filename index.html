@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div
+        class="mx-auto overflow-hidden mt-10 shadow-lg mb-2 bg-purple-900 shadow-lg border rounded-lg lg:w-2/6 md:w-3/6 sm:w-4/6">
+        <div class="">
+            <div class="p-5 text-white text-center text-3xl bg-purple-900">Calculator</div>
+            <div id="show-result" class="pt-16 p-5 pb-0 text-white text-right text-3xl bg-purple-800"></div>
+            <div id="show-number" class="p-5 text-white text-right text-3xl bg-purple-700 h-20"></div>
+
+
+            <div class="flex items-stretch bg-purple-900 h-24">
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="calBtn">%</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="calBtn">(</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="calBtn">)</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="calBtn">÷</div>
+                </div>
+            </div>
+
+            <div class="flex items-stretch bg-purple-900 h-24">
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">7</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">8</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">9</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="calBtn">×</div>
+                </div>
+            </div>
+
+            <div class="flex items-stretch bg-purple-900 h-24">
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">4</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">5</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">6</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div id="subtract" class="calBtn">-</div>
+                </div>
+            </div>
+
+            <div class="flex items-stretch bg-purple-900 h-24">
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">1</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">2</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">3</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div id="plus" class="calBtn">+</div>
+                </div>
+            </div>
+
+
+            <div class="flex items-stretch bg-purple-900 h-24 mb-4">
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div id="clear-all" class="calBtn">C</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="numbers calBtn">0</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div class="calBtn">.</div>
+                </div>
+
+                <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+                    <div id="equal" class="calBtn">=</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

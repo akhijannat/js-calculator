@@ -1,0 +1,14 @@
+.calBtn {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 80px !important;
+  width: 80px !important;
+  border: 2px solid rgb(126 34 206) !important;
+  border-radius: 50% !important;
+  background: rgb(107 33 168) !important;
+  cursor: pointer !important;
+}
+.calBtn:hover {
+  border: 2px solid rgb(107 114 128) !important;
+}
